@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crystal Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1 id="header">Crystal Collector!</h1>
+        <div id="rules">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>Your Goal is to match the your total score with with the random number you're given in the green box. you will lose if your score goes above the number given.</p>
+            <p>The value of each crystal is hidden until you click on it.</p>
+            <p>Each time the game starts it will assign a random value to each crystal.</p>
+            <p>Good Luck!</p>
+        </div>
+        
+        <div id="float1">
+            <h2 id="computer-choice">00</h2>
+        </div>
+        
+        <h3 id="win-loss"></h3>
+        
+        <div id="buttons">
+            <img class="img" src="https://vignette.wikia.nocookie.net/zelda/images/b/bb/Red_Rupee_%28The_Minish_Cap%29.png/revision/latest?cb=20110125235442" alt="red crystal">
+            <img class="img" src="https://pre00.deviantart.net/e2a5/th/pre/i/2012/060/d/3/blue_rupee_by_oclero-d4rdkqn.png" alt="blue crystal">
+            <img class="img" src="https://pre00.deviantart.net/81d9/th/pre/i/2012/060/7/e/green_rupee_by_oclero-d4rdkvx.png" alt="green crystal">
+            <img class="img" src="https://youchew.net/wiki/images/6/6b/Repee.png" alt="purple crystal">
+        </div>
+
+        <div id="total-score">
+            <p>Your total score is:</p>
+        </div>
+
+        <div id="score">
+            <p>00</p>
+        </div>
+        <script type="text/javascript" src="assets/js/game.js"></script>
+    </body>
+</html>

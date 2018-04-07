@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQscHgYzJN93dZ9nYIQj6XsDvfCCKXrNFmirK6C4yoOi_7haGcFkA");
+}
+#header{
+    background-color: rgb(202, 133, 4);
+    color: white;
+    width: 350px;
+    padding: 20px 0px;
+    font-size: 44px;
+}
+#rules{
+    background-color: rgb(243, 243, 204);
+    color: darkgreen;
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+}
+#computer-choice{
+    background-color: rgb(3, 161, 3);
+    width: 300px;
+    height: 125px;
+}
+#win-loss{
+    background-color: lightblue;
+    width: 100px;
+    height: 125px;
+    margin-left: 310px
+}
+#float1{
+    float: left; 
+}
+#buttons{
+    clear: both;
+    
+}
+.img{
+    width:100px;
+    height: 100px;
+}
+#total-score{
+    background-color: teal;
+    color: white;
+    padding: 1px;
+    width: 310px;
+    font-size: 18px;
+}
+#score{
+    background-color: teal;
+    color: white;
+    width: 310px;
+    height: 125px;
+    font-size: 35px;
+    
+}
